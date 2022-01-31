@@ -1,0 +1,67 @@
+const strings = {
+  AppName: 'Aspire',
+  back: 'back',
+  Title: {
+    cart: 'Cart',
+    logoutTitle: 'Logout',
+    logoutMsg: 'Are you sure you want to logout?',
+  },
+
+  ButtonTitle: {
+    yes: 'Yes',
+    no: 'No',
+    ok: 'Ok',
+    login: 'Log In',
+    signUp: 'Sign Up',
+    save: 'Save',
+    checkout: 'Check Out',
+    proceedToPayment: 'Proceed to Payment',
+  },
+
+  placeHolders: {
+    email: 'Email',
+    password: 'Password',
+    debitCard: 'Debit Card',
+    availableBal: 'Available balance',
+    topUpAccount: 'Top-up account',
+    topUpDesc: 'Deposit money to your account to use with card',
+    weeklySpendingLimit: 'Weekly spending limit',
+    weeklySpendingDesc: 'You haven’t set any spending limit on card',
+    freezeCard: 'Freeze card',
+    freezeCardDesc: 'Your debit card is currently active',
+    deactivatedCards: 'Deactivated cards',
+    deactivatedCardsDesc: 'Your previously deactivated cards',
+    getNewCard: 'Get a new card',
+    getNewCardDesc: 'This deactivates your current debit card',
+    showCardNo: 'Show card number',
+    hideCardNo: 'Hide card number',
+    spendingLimit: 'Spending limit',
+    setWeekSpendLimit: 'Set a weekly debit card spending limit',
+    desc: 'Here weekly means the last 7 days - not the calendar week',
+    debitCardLimit: 'Debit card spending limit',
+    cvv: 'CVV:',
+    amt1: 'S$ 5,000',
+    amt2: 'S$ 10,000',
+    amt3: 'S$ 20,000',
+    aamount1: '5000',
+    aamount2: '10000',
+    aamount3: '20000',
+    amtPlaceholder: 'S$',
+    emptyCart: 'Cart is empty.',
+    removeAll: 'Remove All',
+    yourItem: 'Your Item',
+    paymentMethod: 'Choose Payment Method',
+    selectOnePaymentMode: 'Select atleast one payment mode.',
+    paymentDone: 'Payment Successfull',
+    totPrice: 'Total Price',
+    notEnoughBal: 'You do not have sufficient balance to buy all items!',
+    reachedWeeklyLimit: 'Sorry, You have reached your weekly limited balance!',
+  },
+};
+
+const validationErrors = {
+  enterEmail: 'Please enter your email',
+  enterPassword: 'Please enter password',
+};
+
+export {strings, validationErrors};
